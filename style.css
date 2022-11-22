@@ -1,0 +1,103 @@
+h3{
+    font-size: 30px;
+    text-align: right;
+    color: deeppink;
+}
+
+.nav{
+    list-style-type: none;
+    background-color: coral;
+    text-align: center;
+}
+
+.nav li{/*ปรับให้ตัวหนังสือเป็นแถว-ความห่าง*/
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bgcolor{/*ใส่สีพื้นหลัง*/
+    background-color: darkorange;
+}
+
+#bgurl{/*ใส่รูป*/
+    text-align: center;
+    background-repeat: no-repeat;
+
+}#bgurl:hover{/*รูปเข็ม-อ่อน*/
+    opacity: 1;
+}
+#bgurl img{/*ปรับขนาดรูป*/
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+#hover{/*ใส่กรอบสีเหลื่อมสีแดง*/
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    transition: width 2s;
+    float: left;
+}
+#hover:hover{/*ทำให้กรอบสี่เหลื่อมยืดได้*/
+    width: 300px;
+    background-color: green;
+}
+.dropdown{/*รูปที่ 1*/
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{/*รูปที่ 2*/
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{/*การทำให้รูป 1-2 ช้อนกันและเด่งออกมา*/
+    display: block;
+}
+
+#text{/*ใส่กรอบตัวหนังสือ-และจัดตัวหนังสือในกรอบ*/
+    background-color: bisque;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20%;
+}
+
+#text1{
+    background-color: bisque;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20%;
+    float: left;
+    width: 500px;
+    height: auto;
+}
+#text2{
+    background-color: bisque;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20%;
+    float: left;
+    width: 500px;
+    height: auto;
+}
+#text3{
+    background-color: bisque;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20%;
+    float: left;
+    width: 500px;
+    height: auto;
+}
